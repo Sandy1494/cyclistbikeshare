@@ -28,13 +28,13 @@ Step 6: Act
 
 Why this project?
 
-This document was created as the final deliverable for the Google Data Analytics Capstone project. I started this certification program through Coursera in October 2022 and completed it in Feb 2023. Throughout each course in the Google Data Analytics Certificate, I developed the skills such as structured thinking, Storytelling, Excel, Tableau, SQL, and R. Through this project I am demonstrating the skills needed to transition into a career in data analytics.
+This document was created as the final deliverable for the BADM Capstone project. I started this certification program through GUVI in Dec 2023 and completed it in May 2024. Throughout each course in the BADM Certificate, I developed the skills such as Analystical thinking, Storytelling, Excel, Tableau, SQL, Digital Marketing and ML Models. Through this project I am demonstrating the skills needed to transition into a career in Business analytics.
 
 Introduction
 
 In this case study, you will perform many real-world tasks of a junior data analyst. You will work for a fictional company, Cyclistic, and meet different characters and team members. To answer the key business questions, you will follow the steps of the data analysis process: ask, prepare, process, analyze, share, and act.
 
-This markdown file structure is modeled on the Data analysis process presented as part of the Google Data Analytics Certificate which is:
+This markdown file structure is modeled on the Data analysis process presented as part of the BADM Certificate which is:
 
 Ask : Business Challenge/Objective/Question
 Prepare : Data generation, collection, storage, and data management
@@ -65,60 +65,19 @@ Statement of business task
 
 GOAL : Analyze how annual members and casual riders use Cyclistic bikes differently. The insights from this analysis would be shared with the marketing team which would help them design marketing strategies aimed at converting casual riders into members.
 
-Stakeholders
-
-Primary Stakeholders: Director of Marketing (Lily Moreno), Cyclists Executive team
-
-Secondary Stakeholders: Cyclistic marketing analytics team
-
 Step2: Data preparation
 
-The data we will be using is Cyclistic historical trip data from June 2021 to May 2022. The dataset used has been made available by Motivate International Inc. at this link under this license. It consists of 12 CSV files (each for a month). Each CSV has 13 columns with the corresponding number of observations.
+The data we will be using is Cyclistic historical trip data from Jan 2020 to Dec 2020. The dataset used has been made available by Motivate International Inc.under this license. 
 
-The sheer volume of observations in each file could be a challenge using Excel to wrangle the combined as Excel took a while to perform calculations on all rows. So, we will use R programming to clean and wrangle the data. Also, a sample of the combined dataset was decided to be better due to computational limitations.
+The sheer volume of observations in each file could be a challenge using Excel to wrangle the combined as Excel took a while to perform calculations on all rows. So, we will use python programming to clean and wrangle the data. Also, a sample of the combined dataset was decided to be better due to computational limitations.
 
-File name Number of rows
-
-202106-divvy-tripdata 729595
-
-202107-divvy-tripdata 822410
-
-202108-divvy-tripdata 804352
-
-202109-divvy-tripdata 756147
-
-202110-divvy-tripdata 631226
-
-202111-divvy-tripdata 359978
-
-202112-divvy-tripdata 247540
-
-202201-divvy-tripdata 103770
-
-202202-divvy-tripdata 115609
-
-202203-divvy-tripdata 284042
-
-202204-divvy-tripdata 371249
-
-202205-divvy-tripdata 634858
-
-Total number of rows in all 12 files: 5,860,776
-
-ROCCC approach was used to check issues with bias or credibility in this data.
-
-R eliability- The data is complete and accurate, and it represents all bike rides taken in the city of Chicago for the selected duration of our analysis.
-O riginal - The data is from Motivate International Inc, which operates the City of Chicago's Divvy bicycle-sharing service.
-C omprehensive- The data includes all relevant information about the ride including the type of bike, ride_id, rideable_type, started_at, ended_at, start_station_name,, start_station_id, end_station_name, end_station_id,
-C urrent- The data made available on the site are Up to date until Feb 2023
-C ited- The data is cited under divvy current license agreement: Data Licence agreement
 Dataset Limitations
 
 A quick review of the datasets for completeness revealed that 'start_station_name' ,' start_station_id',end_station_name', and'end_station_id' are missing for some rides. Further observations suggest that the most missing data about "start station name" belongs to electric bikes
 
 Step 3: Process (Data Wrangling)
 
-Imported data in R studio.
+Imported data in Python studio.
 
 Made columns consistent and merged them into a single data frame.
 
@@ -144,7 +103,7 @@ Review Relationships between independent variables and dependent variables
 Performed Descriptive stats analysis
 Step 5: Share
 
-Tableau Public was used to show some key trends and patterns. Microsoft PowerPoint is used to present the key insights uncovered.
+Power BI Desktop was used to show some key trends and patterns. Microsoft PowerPoint is used to present the key insights uncovered.
 
 Cyclistic Bike Share Tableau story https://public.tableau.com/shared/T8Y8TWSN6?:display_count=n&:origin=viz_share_link
 
